@@ -1,12 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+    import Head from "@/components/Head.vue";
+</script>
 
 <template>
-    <div class="input-group flex-nowrap">
-        <span class="input-group-text" id="addon-wrapping">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+    <div class="container-fluid">
+        <Head></Head>
+        <RouterView/>
     </div>
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+.container-fluid {
+    height: 100vh;
+}
 </style>

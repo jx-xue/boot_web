@@ -37,7 +37,6 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 $body-color: #333;
 $body-bg: #fff;
 $border-radius: .4rem;
-$success: #7952b3;
 $focus-ring-width: 2px;
 // Required
 @import "bootstrap/scss/variables";
@@ -90,7 +89,7 @@ $focus-ring-width: 2px;
 //
 
 //@import "icon-list";
-
-body {
-  padding: 1.5rem;
-}
+//
+//body {
+//  padding: 1.5rem;
+//}
