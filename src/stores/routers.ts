@@ -1,5 +1,5 @@
-import { ref, computed } from 'vue'
-import { defineStore } from 'pinia'
+import {ref} from 'vue'
+import {defineStore} from 'pinia'
 
 export const useRoutersStore = defineStore('routers', () => {
   const routers = ref<MyRouter[]>([
@@ -12,6 +12,7 @@ export const useRoutersStore = defineStore('routers', () => {
       path: '/net',
       name: 'Net',
       description: '网络相关'
+
     },
     {
       path: '/page',

@@ -4,3 +4,12 @@ type MyRouter = {
     name: string,
     description: string,
 }
+type Link = {
+    id: number,
+    description: string
+}
+type LeftNavigation = {
+    id: number,
+    description: string,
+    children: Link[]
+}

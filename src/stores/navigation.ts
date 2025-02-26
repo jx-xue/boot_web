@@ -1,0 +1,62 @@
+import {defineStore} from "pinia";
+import {ref} from "vue";
+
+export const useNavigationStore = defineStore('navigation', () => {
+    const left = ref<LeftNavigation[]>([
+        {
+            id: 1,
+            description: 'Java测试',
+            children: [
+                {
+                    id: 1,
+                    description: '初级Java语法'
+                },
+                {
+                    id: 2,
+                    description: '中级Java对象'
+                },
+                {
+                    id: 3,
+                    description: '高级Java泛型'
+                }
+            ]
+        },
+        {
+            id: 2,
+            description: 'C语言测试',
+            children: [
+                {
+                    id: 1,
+                    description: '初级C语法'
+                },
+                {
+                    id: 2,
+                    description: '中级C函数'
+                },
+                {
+                    id: 3,
+                    description: '高级C模板'
+                }
+            ]
+        },
+        {
+            id: 3,
+            description: 'Python测试',
+            children: [
+                {
+                    id: 1,
+                    description: '初级Python语法'
+                },
+                {
+                    id: 2,
+                    description: '中级Python函数'
+                },
+                {
+                    id: 3,
+                    description: '高级Python闭包'
+                }
+            ]
+        }
+    ]);
+    return {left};
+})

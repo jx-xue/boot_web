@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark clearfix head">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">如何使用BootStrap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -37,5 +37,8 @@
 </template>
 
 <style scoped lang="scss">
-
+.head {
+    height: 56px;
+    min-width: 280px;
+}
 </style>
