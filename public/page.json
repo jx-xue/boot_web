@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "description": "CSS库学习",
+    "children": [
+      {
+        "id": 1,
+        "description": "Bootstrap"
+      },
+      {
+        "id": 2,
+        "description": "WindCss"
+      },
+      {
+        "id": 3,
+        "description": "Java包"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "description": "Vue相关",
+    "children": [
+      {
+        "id": 1,
+        "description": "Vue基本语法"
+      },
+      {
+        "id": 2,
+        "description": "Pinia"
+      },
+      {
+        "id": 3,
+        "description": "Vue-Router"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "description": "其它框架",
+    "children": [
+      {
+        "id": 1,
+        "description": "Reactor"
+      },
+      {
+        "id": 2,
+        "description": "其它语法"
+      },
+      {
+        "id": 3,
+        "description": "CSS高级"
+      }
+    ]
+  }
+]

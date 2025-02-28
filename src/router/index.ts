@@ -1,6 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import Home from "@/views/Home.vue";
+import axios from "axios";
 import NetWork from "@/views/NetWork.vue";
+import Home from "@/views/Home.vue";
 import PageTest from "@/views/PageTest.vue";
 
 const router = createRouter({
@@ -23,5 +24,4 @@ const router = createRouter({
         }
     ],
 })
-
 export default router

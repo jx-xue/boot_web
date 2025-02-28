@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "description": "网络测试",
+    "children": [
+      {
+        "id": 1,
+        "description": "AXIOS测试"
+      },
+      {
+        "id": 2,
+        "description": "WEBSOCKET测试"
+      },
+      {
+        "id": 3,
+        "description": "SSE测试"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "description": "CRUD测试",
+    "children": [
+      {
+        "id": 1,
+        "description": "增加"
+      },
+      {
+        "id": 2,
+        "description": "删除"
+      },
+      {
+        "id": 3,
+        "description": "修改"
+      },
+      {
+        "id": 4,
+        "description": "查询"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "description": "数据库测试",
+    "children": [
+      {
+        "id": 1,
+        "description": "Mysql"
+      },
+      {
+        "id": 2,
+        "description": "Oracle"
+      },
+      {
+        "id": 3,
+        "description": "Postgres"
+      },
+      {
+        "id": 4,
+        "description": "Sybase"
+      },
+      {
+        "id": 5,
+        "description": "达梦"
+      }
+    ]
+  }
+]
